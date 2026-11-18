@@ -17,7 +17,7 @@ import mongoose from "mongoose";
 import path from "path";
 import { employee } from "./models/employee.js";
 
-const connection = await mongoose.connect("mongodb://localhost:27017/company");
+//const connection = await mongoose.connect("mongodb://localhost:27017/company");
 
 const app = express();
 const port = 3000;
